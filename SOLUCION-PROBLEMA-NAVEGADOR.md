@@ -4,7 +4,7 @@
 
 ### 1. Verificar que el servidor esté corriendo
 
-Abre una terminal en Cursor y ejecuta:
+Abre una terminal en el proyecto y ejecuta:
 
 ```bash
 npm run dev
@@ -20,7 +20,7 @@ Deberías ver algo como:
 
 ### 2. Abrir en navegador
 
-**Opción A: Navegador integrado de Cursor**
+**Opción A: Navegador integrado del IDE**
 - Si el navegador integrado no carga, intenta:
   1. Cerrar y reabrir el panel del navegador
   2. Refrescar la página (F5 o Ctrl+R)

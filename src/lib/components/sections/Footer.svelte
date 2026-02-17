@@ -89,8 +89,5 @@
       </div>
     </div>
 
-    <div class="mt-10 pt-6 border-t border-[#0B0D1B]/20 text-center">
-      <p class="text-xs font-ui text-[#0B0D1B]/70">powered by Cursor</p>
-    </div>
   </div>
 </footer>
