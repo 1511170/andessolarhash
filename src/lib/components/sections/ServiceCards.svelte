@@ -2,7 +2,7 @@
   // Three service/product cards
 </script>
 
-<section id="servicios" class="bg-[#0B0D1B] py-20 px-6 relative">
+<section id="servicios" class="bg-[#0B0D1B] py-12 md:py-20 px-4 md:px-6 relative">
   <!-- Gradient overlay -->
   <div class="absolute inset-0 opacity-30" style="background: linear-gradient(90deg, #1D2242 -2.44%, #000 120.71%)" />
   
@@ -15,9 +15,9 @@
     />
   </div>
 
-  <div class="max-w-[1232px] mx-auto relative z-10 grid lg:grid-cols-3 gap-8">
+  <div class="max-w-[1232px] mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
     <!-- Card 1: VENTA DE MINEROS ASIC -->
-    <article class="bg-[#1D2242] rounded-[26px] p-6 flex flex-col relative">
+    <article class="bg-[#1D2242] rounded-2xl md:rounded-[26px] p-5 md:p-6 flex flex-col relative">
       <!-- Shadow -->
       <div class="absolute left-1/2 -translate-x-1/2 -top-12 w-[274px] h-14 rounded-full opacity-50"
            style="background: radial-gradient(50% 50% at 50% 50%, #0B0D1B 0%, rgba(11, 13, 27, 0.00) 80.77%)" />
@@ -108,7 +108,7 @@
     </article>
 
     <!-- Card 2: HOSTING MINERO PROFESIONAL -->
-    <article class="bg-[#1D2242] rounded-[26px] p-6 flex flex-col relative">
+    <article class="bg-[#1D2242] rounded-2xl md:rounded-[26px] p-5 md:p-6 flex flex-col relative">
       <!-- Shadow -->
       <div class="absolute left-1/2 -translate-x-1/2 -top-12 w-[274px] h-14 rounded-full opacity-50"
            style="background: radial-gradient(50% 50% at 50% 50%, #0B0D1B 0%, rgba(11, 13, 27, 0.00) 80.77%)" />
@@ -180,7 +180,7 @@
     </article>
 
     <!-- Card 3: NFTs PRODUCTIVOS DE MINERÍA BITCOIN -->
-    <article class="bg-[#1D2242] rounded-[26px] p-6 flex flex-col relative">
+    <article class="bg-[#1D2242] rounded-2xl md:rounded-[26px] p-5 md:p-6 flex flex-col relative">
       <!-- Shadow -->
       <div class="absolute left-1/2 -translate-x-1/2 -top-12 w-[274px] h-14 rounded-full opacity-50"
            style="background: radial-gradient(50% 50% at 50% 50%, #0B0D1B 0%, rgba(11, 13, 27, 0.00) 80.77%)" />

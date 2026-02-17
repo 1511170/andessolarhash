@@ -2,9 +2,9 @@
   // YouTube Educational Video Section
 </script>
 
-<section class="bg-[#15172E] py-20 px-6">
+<section class="bg-[#15172E] py-12 md:py-20 px-4 md:px-6">
   <div class="max-w-[1232px] mx-auto">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
+    <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
       <!-- Video Player -->
       <div class="aspect-video bg-[#111827] rounded-xl shadow-2xl flex items-center justify-center relative overflow-hidden">
         <!-- Placeholder background -->
@@ -27,7 +27,7 @@
         </div>
 
         <!-- Title -->
-        <h2 class="text-white font-display text-3xl font-bold leading-9">
+        <h2 class="text-white font-display text-xl md:text-3xl font-bold leading-tight md:leading-9">
           El Secreto del Minero: ¿Por qué la<br />paciencia supera a la especulación?
         </h2>
 

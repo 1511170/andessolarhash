@@ -24,11 +24,11 @@
   ];
 </script>
 
-<section class="bg-[#15172E] py-24 px-6">
+<section class="bg-[#15172E] py-12 md:py-24 px-4 md:px-6">
   <div class="max-w-[1280px] mx-auto">
-    <!-- Header -->
-    <div class="flex items-end justify-between mb-12 px-6">
-      <h2 class="font-display font-bold text-[44px] leading-9"
+    <!-- Header: móvil columna -->
+    <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8 md:mb-12 px-0 md:px-6">
+      <h2 class="font-display font-bold text-2xl md:text-[44px] leading-tight md:leading-9"
           style="background: linear-gradient(90deg, #E08324 0%, #F7AD1F 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
         Últimas Noticias
       </h2>
@@ -43,10 +43,10 @@
     </div>
 
     <!-- News Cards Grid -->
-    <div class="grid md:grid-cols-3 gap-8 px-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 px-0 md:px-6">
       {#each news as article}
         <a href={article.href} class="group block">
-          <article class="relative h-[300px] rounded-xl overflow-hidden flex flex-col justify-end">
+          <article class="relative h-[260px] md:h-[300px] rounded-xl overflow-hidden flex flex-col justify-end">
             <!-- Background Image -->
             <div class="absolute inset-0">
               <img 

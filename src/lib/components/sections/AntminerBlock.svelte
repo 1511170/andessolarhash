@@ -2,7 +2,7 @@
   // Antminer S21 XP Product Block
 </script>
 
-<section class="bg-[#0B0D1B] py-20 px-6 relative overflow-hidden">
+<section class="bg-[#0B0D1B] py-12 md:py-20 px-4 md:px-6 relative overflow-hidden">
   <!-- Gradient Overlay -->
   <div class="absolute inset-0 opacity-30" style="background: linear-gradient(90deg, #1D2242 -2.44%, #000 120.71%)" />
   
@@ -16,22 +16,22 @@
   </div>
 
   <div class="max-w-[1232px] mx-auto relative z-10">
-    <div class="grid lg:grid-cols-2 gap-12 items-center">
-      <!-- Left Content -->
-      <div class="space-y-8">
+    <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+      <!-- Left Content (orden 2 en móvil para que imagen vaya arriba) -->
+      <div class="space-y-5 md:space-y-8 order-2 lg:order-1">
         <!-- Label -->
         <div class="text-white font-ui text-sm font-bold tracking-[1.4px] leading-5">
           MINERO ASIC DESTACADO | ROI DESDE 17 MESES
         </div>
 
         <!-- Title -->
-        <h2 class="font-display font-black text-4xl leading-10"
+        <h2 class="font-display font-black text-2xl md:text-4xl leading-tight md:leading-10"
             style="background: linear-gradient(90deg, #FF9933 0%, #F7AD1F 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
           Antminer S21 XP: El Costo Más<br />Bajo por Hash
         </h2>
 
         <!-- Description -->
-        <p class="text-white font-ui text-lg leading-7 max-w-[554px]">
+        <p class="text-white font-ui text-sm md:text-lg leading-6 md:leading-7 max-w-[554px]">
           El S21 XP es el equipo más eficiente (13.5 J/TH). Invertir aquí significa
           generar su Bitcoin con mayor descuento que cualquier otro modelo,
           maximizando el valor para el próximo ciclo alcista.
@@ -63,23 +63,23 @@
           </div>
         </div>
 
-        <!-- CTAs -->
-        <div class="flex gap-4 pt-4">
-          <a href="/producto-mineria" class="inline-block px-5 py-4 border border-brand rounded font-display text-base font-bold text-white leading-6 hover:bg-brand/10 transition-colors">
+        <!-- CTAs: móvil columna -->
+        <div class="flex flex-col sm:flex-row gap-3 md:gap-4 pt-4">
+          <a href="/producto-mineria" class="inline-flex justify-center px-5 py-4 border border-brand rounded font-display text-base font-bold text-white leading-6 hover:bg-brand/10 transition-colors w-full sm:w-auto">
             VER DETALLE Y COMPRAR
           </a>
-          <a href="/#servicios" class="inline-block px-6 py-4 bg-brand rounded font-display text-base font-bold text-[#1D2242] leading-6 hover:bg-[#e0831f] transition-colors">
+          <a href="/#servicios" class="inline-flex justify-center px-6 py-4 bg-brand rounded font-display text-base font-bold text-[#1D2242] leading-6 hover:bg-[#e0831f] transition-colors w-full sm:w-auto">
             COTIZAR FRACCIONAMIENTO
           </a>
         </div>
       </div>
 
-      <!-- Right Product Image -->
-      <div class="flex items-center justify-center lg:justify-end">
+      <!-- Right Product Image (orden 1 en móvil) -->
+      <div class="flex items-center justify-center lg:justify-end order-1 lg:order-2">
         <img 
           src="https://api.builder.io/api/v1/image/assets/TEMP/bf3c37a8977865906dce2c550d7508ec862fb9ee?width=984"
           alt="Antminer S21 XP"
-          class="w-full max-w-[492px] h-auto"
+          class="w-full max-w-[280px] md:max-w-[492px] h-auto"
         />
       </div>
     </div>

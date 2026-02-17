@@ -21,8 +21,8 @@
 </script>
 
 <footer class="bg-brand text-[#0B0D1B]">
-  <div class="max-w-[1280px] mx-auto px-6 md:px-10 py-12">
-    <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start lg:items-center justify-between">
+  <div class="max-w-[1280px] mx-auto px-4 md:px-10 py-10 md:py-12">
+    <div class="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-16 items-start lg:items-center justify-between">
       <!-- Logo + copyright -->
       <div class="flex flex-col gap-4 max-w-[280px]">
         <a href="/" class="flex items-center gap-2 no-underline text-[#0B0D1B]">
@@ -41,7 +41,7 @@
       </div>
 
       <!-- Productos Rápidos + Empresa & Legal -->
-      <div class="flex flex-wrap gap-12">
+      <div class="flex flex-wrap gap-8 md:gap-12">
         <div class="flex flex-col gap-3">
           <span class="text-sm font-ui font-bold text-[#0B0D1B]">Productos Rápidos</span>
           {#each productLinks as link}

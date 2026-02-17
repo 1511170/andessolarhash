@@ -2,9 +2,9 @@
   import Button from '$lib/components/ui/Button.svelte';
 </script>
 
-<section class="py-16 md:py-24 bg-base border-t border-border">
-  <div class="max-w-3xl mx-auto px-6 text-center">
-    <h2 class="font-display font-black text-2xl md:text-3xl text-white mb-3 uppercase">
+<section class="py-12 md:py-24 bg-base border-t border-border">
+  <div class="max-w-3xl mx-auto px-4 md:px-6 text-center">
+    <h2 class="font-display font-black text-xl md:text-3xl text-white mb-3 uppercase">
       Recibe la tesis de inversión ASH
     </h2>
     <p class="text-body-lg text-secondary mb-8">

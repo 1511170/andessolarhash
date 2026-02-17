@@ -19,9 +19,9 @@
   }
 </script>
 
-<!-- Top Stats Bar (Figma: COSTO ENERGÍA, TEL, EMAIL, LOGISTICA) -->
-<div class="w-full bg-black border-b border-white/10 py-2">
-  <div class="max-w-[1920px] mx-auto px-4 flex items-center flex-wrap gap-6 overflow-x-auto">
+<!-- Top Stats Bar: móvil más compacto (gap menor, texto más pequeño) -->
+<div class="w-full bg-black border-b border-white/10 py-1.5 md:py-2">
+  <div class="max-w-[1920px] mx-auto px-3 md:px-4 flex items-center flex-wrap gap-3 md:gap-6 overflow-x-auto text-[10px] md:text-xs">
     <div class="flex items-center gap-1 whitespace-nowrap">
       <span class="text-brand text-xs font-normal tracking-[1.2px]">COSTO ENERGÍA:</span>
       <span class="text-white text-xs font-bold tracking-[1.2px] ml-1">$0.007 USD/kWh</span>
@@ -46,7 +46,7 @@
   class="sticky top-0 z-50 w-full border-b border-white/5"
   style="background: rgba(30, 33, 66, 0.6); backdrop-filter: blur(12px);"
 >
-  <div class="max-w-[1920px] mx-auto px-6 lg:px-12 xl:px-[320px] h-[82px] flex items-center justify-between">
+  <div class="max-w-[1920px] mx-auto px-4 md:px-6 lg:px-12 xl:px-[320px] h-[64px] md:h-[82px] flex items-center justify-between">
     <a href="/" class="flex items-center gap-2 text-white no-underline shrink-0">
       <div class="w-8 h-8 flex items-center justify-center">
         <svg class="w-full h-full text-brand" viewBox="0 0 34 57" fill="none" xmlns="http://www.w3.org/2000/svg">
