@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import { goto } from '$app/navigation';
+  import { browser } from '$app/environment';
   import { blogPosts } from '$lib/data/blog';
 
   let searchQuery = '';
@@ -8,11 +9,11 @@
   const posts = blogPosts;
 
   function goToPage(num: number) {
+    if (!browser) return;
     const params = new URLSearchParams($page.url.searchParams);
     params.set('page', String(num));
     goto(`${$page.url.pathname}?${params.toString()}`, { replaceState: true });
   }
-
 
   $: filteredPosts = searchQuery.trim() === ''
     ? posts
@@ -22,7 +23,9 @@
           p.excerpt.toLowerCase().includes(searchQuery.toLowerCase())
       );
   $: totalPages = Math.max(1, Math.ceil(filteredPosts.length / perPage));
-  $: currentPage = Math.max(1, Math.min(totalPages, parseInt($page.url.searchParams.get('page') || '1', 10) || 1));
+  $: currentPage = browser
+    ? Math.max(1, Math.min(totalPages, parseInt($page.url.searchParams.get('page') || '1', 10) || 1))
+    : 1;
   $: paginatedPosts = filteredPosts.slice(
     (currentPage - 1) * perPage,
     currentPage * perPage

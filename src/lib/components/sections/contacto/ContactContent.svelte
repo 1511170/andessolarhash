@@ -1,8 +1,9 @@
 <script lang="ts">
   import { page } from '$app/stores';
+  import { browser } from '$app/environment';
   import Button from '$lib/components/ui/Button.svelte';
 
-  $: sent = $page.url.searchParams.get('sent') === '1';
+  $: sent = browser && $page.url.searchParams.get('sent') === '1';
 
   const socialChannels = [
     { name: 'LinkedIn', href: '#', icon: 'linkedin' },
