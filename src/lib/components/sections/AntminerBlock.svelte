@@ -19,15 +19,16 @@
     <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
       <!-- Left Content (orden 2 en móvil para que imagen vaya arriba) -->
       <div class="space-y-5 md:space-y-8 order-2 lg:order-1">
-        <!-- Label -->
+        <!-- Label: móvil "EQUIPOS DE ÚLTIMA GENERACIÓN" (Figma), desktop ROI -->
         <div class="text-white font-ui text-sm font-bold tracking-[1.4px] leading-5">
-          MINERO ASIC DESTACADO | ROI DESDE 17 MESES
+          <span class="md:hidden">EQUIPOS DE ÚLTIMA GENERACIÓN</span>
+          <span class="hidden md:inline">MINERO ASIC DESTACADO | ROI DESDE 17 MESES</span>
         </div>
 
-        <!-- Title -->
+        <!-- Title: exacto Figma -->
         <h2 class="font-display font-black text-2xl md:text-4xl leading-tight md:leading-10"
             style="background: linear-gradient(90deg, #FF9933 0%, #F7AD1F 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-          Antminer S21 XP: El Costo Más<br />Bajo por Hash
+          Antminer S21 XP: El Costo Más Bajo por Hash
         </h2>
 
         <!-- Description -->
@@ -63,8 +64,11 @@
           </div>
         </div>
 
-        <!-- CTAs: móvil columna -->
+        <!-- CTAs: "MÁS DETALLES TÉCNICOS" (Figma) + COTIZAR -->
         <div class="flex flex-col sm:flex-row gap-3 md:gap-4 pt-4">
+          <a href="/producto-mineria/s21-xp" class="inline-flex justify-center px-5 py-4 border border-brand rounded font-display text-base font-bold text-white leading-6 hover:bg-brand/10 transition-colors w-full sm:w-auto">
+            MÁS DETALLES TÉCNICOS
+          </a>
           <a href="/producto-mineria" class="inline-flex justify-center px-5 py-4 border border-brand rounded font-display text-base font-bold text-white leading-6 hover:bg-brand/10 transition-colors w-full sm:w-auto">
             VER DETALLE Y COMPRAR
           </a>

@@ -85,7 +85,7 @@
           <path d="M2.58594 5.02832H17.4143" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M2.83333 4.55591C2.61696 4.84441 2.5 5.1953 2.5 5.55591V16.6667C2.5 17.1088 2.67559 17.5327 2.98816 17.8453C3.30072 18.1578 3.72464 18.3334 4.16667 18.3334H15.8333C16.2754 18.3334 16.6993 18.1578 17.0118 17.8453C17.3244 17.5327 17.5 17.1088 17.5 16.6667V5.55591C17.5 5.1953 17.383 4.84441 17.1667 4.55591L15.5 2.33341C15.3448 2.12642 15.1434 1.95842 14.912 1.8427C14.6806 1.72699 14.4254 1.66675 14.1667 1.66675H5.83333C5.57459 1.66675 5.3194 1.72699 5.08798 1.8427C4.85655 1.95842 4.65525 2.12642 4.5 2.33341L2.83333 4.55591Z" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <span class="font-ui text-xl font-bold text-black">COMPRAR EQUIPO AHORA</span>
+        <span class="font-ui text-lg md:text-xl font-bold text-black">CONSULTA NUESTROS PRECIOS</span>
       </a>
 
       <!-- Webpay Logo -->
@@ -171,7 +171,7 @@
 
       <!-- CTA Button -->
       <a href="/contacto" class="w-fit mx-auto block bg-brand rounded-full py-4 px-6 hover:bg-[#e0831f] transition-colors text-center">
-        <span class="font-display text-sm font-bold text-[#0B0D1B]">AGENDAR LLAMADA DE EVALUACIÓN</span>
+        <span class="font-display text-sm font-bold text-[#0B0D1B]">AGENDA LLAMADA DE ASESORÍA</span>
       </a>
 
       <!-- Shadow at bottom -->
@@ -241,7 +241,7 @@
 
       <!-- CTA Button -->
       <a href="/marketplace" class="w-fit mx-auto block bg-[#e0831f] rounded-full py-4 px-6 hover:bg-brand transition-colors text-center">
-        <span class="font-display text-sm font-bold text-[#0B0D1B]">EXPLORA LOS NFTS DISPONIBLES</span>
+        <span class="font-display text-sm font-bold text-[#0B0D1B]">VER TOKENS DISPONIBLES</span>
       </a>
 
       <!-- Shadow at bottom -->

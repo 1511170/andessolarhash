@@ -21,9 +21,9 @@
 
       <!-- Content -->
       <div class="space-y-4">
-        <!-- Label -->
+        <!-- Label: Figma "EDUCACIÓN Y NOTICIAS" -->
         <div class="text-[#EF4444] font-ui text-sm font-bold tracking-[1.4px] leading-5">
-          POST: EDUCACIÓN FINANCIERA
+          EDUCACIÓN Y NOTICIAS
         </div>
 
         <!-- Title -->
@@ -41,7 +41,7 @@
         <!-- CTA Button -->
         <div class="pt-4">
           <a href="/blog" class="inline-flex items-center gap-3 px-6 py-4 bg-brand rounded hover:bg-[#e0831f] transition-colors">
-            <span class="font-display text-base font-bold text-[#1D2242]">VER NOTA COMPLETA</span>
+            <span class="font-display text-base font-bold text-[#1D2242]">VER MÁS ARTÍCULOS</span>
             <svg class="w-4 h-4 text-[#1D2242]" viewBox="0 0 16 16" fill="none">
               <path d="M8 4H12V8" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M5 11L12 4" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>

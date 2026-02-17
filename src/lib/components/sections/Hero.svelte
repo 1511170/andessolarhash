@@ -20,11 +20,12 @@
 
   <!-- Content Container: móvil px-4 py-12, desktop igual -->
   <div class="relative z-10 max-w-[1920px] mx-auto px-4 md:px-8 lg:px-[344px] h-full min-h-[600px] md:min-h-0 py-12 md:py-0 flex flex-col justify-center">
-    <!-- Badge: móvil más compacto -->
+    <!-- Badge: móvil "MINERIA DE BITCOIN" (Figma), desktop compañía chilena -->
     <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-brand w-fit mb-6 md:mb-12 bg-brand/10 md:bg-transparent">
       <div class="w-2 h-2 rounded-full bg-brand shrink-0" />
       <span class="text-brand font-ui text-[10px] md:text-xs font-bold leading-4 tracking-tight">
-        COMPAÑÍA CHILENA | GESTIÓN LEGAL (SII)
+        <span class="md:hidden">MINERIA DE BITCOIN</span>
+        <span class="hidden md:inline">COMPAÑÍA CHILENA | GESTIÓN LEGAL (SII)</span>
       </span>
     </div>
 
