@@ -17,4 +17,9 @@
 <DiversificacionSection />
 <FAQGlossarySection />
 <ProductHighlightCards />
-<Newsletter />
+<Newsletter
+  title="RECIBE LA TESIS DE INVERSIÓN ASH."
+  description="Ingresa tu correo para recibir la tesis de inversión y novedades de Andes Solar Hash."
+  placeholder="Su correo electrónico aquí..."
+  buttonText="SUSCRIBIRME"
+/>

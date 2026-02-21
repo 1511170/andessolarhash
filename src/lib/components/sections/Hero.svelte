@@ -12,7 +12,7 @@
   <!-- Background Image - Mining Equipment (oculto en móvil para priorizar contenido) -->
   <div class="absolute right-0 top-0 w-[1536px] h-[1024px] -mt-20 ml-auto hidden md:block">
     <img
-      src="https://api.builder.io/api/v1/image/assets/TEMP/0dbc0291f79bb3a13cbd9273562d913916155838?width=3072"
+      src="/images/builder-hero-bg.png"
       alt="Mining Equipment"
       class="w-full h-full object-cover opacity-70"
     />
@@ -68,7 +68,7 @@
   <!-- Decorative Bitcoin Icon: oculto en móvil -->
   <div class="absolute left-5 bottom-32 w-[282px] h-[455px] hidden xl:block">
     <img
-      src="https://api.builder.io/api/v1/image/assets/TEMP/275b45d5001dc298a90f7d0d73f19d3c144e6b7d?width=564"
+      src="/images/builder-antminer-card.png"
       alt=""
       class="w-full h-full object-contain opacity-60"
     />

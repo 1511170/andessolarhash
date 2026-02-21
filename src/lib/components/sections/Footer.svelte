@@ -20,20 +20,17 @@
   ];
 </script>
 
-<footer class="bg-brand text-[#0B0D1B]">
-  <div class="max-w-[1280px] mx-auto px-4 md:px-10 py-10 md:py-12">
+<!-- Footer: Figma node 196-389 - Bitcoin dorado 3D visible por completo a la izquierda -->
+<footer
+  class="relative bg-brand text-[#0B0D1B] bg-no-repeat min-h-[280px] md:min-h-[320px] overflow-hidden"
+  style="background-image: url('/footer-bitcoin-bg.png'); background-position: left center; background-size: contain;"
+>
+  <div class="relative z-10 max-w-[1280px] mx-auto px-4 md:px-10 py-10 md:py-12 lg:pl-56">
     <div class="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-16 items-start lg:items-center justify-between">
       <!-- Logo + copyright -->
       <div class="flex flex-col gap-4 max-w-[280px]">
-        <a href="/" class="flex items-center gap-2 no-underline text-[#0B0D1B]">
-          <svg class="w-10 h-10" viewBox="0 0 34 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16.7735 40.6267C10.0785 40.6267 4.65244 35.2039 4.65244 28.516C4.65244 21.828 10.0798 16.4052 16.7735 16.4052C23.4671 16.4052 28.8945 21.828 28.8945 28.516C28.8945 35.2039 23.4671 40.6267 16.7735 40.6267ZM16.7735 11.7567C7.50931 11.7567 0 19.2596 0 28.5146C0 37.7696 7.50931 45.2739 16.7735 45.2739C26.0376 45.2739 33.5469 37.771 33.5469 28.5146C33.5469 19.2583 26.0376 11.7554 16.7735 11.7554" fill="currentColor"/>
-            <path d="M19.0669 32.3504C18.7214 32.6352 18.2223 32.7782 17.5669 32.7782H15.2866V29.2203H17.7534C18.3865 29.2203 18.8502 29.3805 19.1431 29.6994C19.4373 30.0183 19.5844 30.4802 19.5844 31.0839C19.5844 31.643 19.411 32.0656 19.0669 32.3504ZM15.2853 24.249H16.981C17.693 24.249 18.2289 24.3842 18.5875 24.6558C18.9461 24.9275 19.126 25.3475 19.126 25.9184C19.126 26.4381 18.9474 26.8331 18.5914 27.1048C18.2354 27.3764 17.7258 27.5116 17.0651 27.5116H15.2853V24.2503V24.249ZM21.4956 29.2794C21.1252 28.7597 20.5695 28.4211 19.83 28.2636C20.4067 28.0379 20.8454 27.7006 21.1475 27.2518C21.4496 26.8029 21.6006 26.2937 21.6006 25.7228C21.6006 24.5994 21.1935 23.7555 20.3804 23.1899C19.9194 22.8697 19.3519 22.6439 18.686 22.5048V19.8394H17.2135V22.3487C17.136 22.3473 17.0612 22.3434 16.981 22.3434H15.1185V19.8394H13.6461V22.3434H11.4958V23.8343L12.8094 24.0889V32.9397L11.4958 33.1943V34.676H13.6461V37.1905H15.1185V34.676H17.2135V37.1905H18.686V34.6012C19.5857 34.4791 20.3187 34.2022 20.8808 33.7639C21.6611 33.1575 22.0512 32.2638 22.0512 31.0826C22.0512 30.4002 21.866 29.7978 21.4956 29.2781" fill="currentColor"/>
-          </svg>
-          <div class="flex flex-col">
-            <span class="font-display font-black text-lg leading-none">ANDES</span>
-            <span class="font-ui text-[10px] leading-none tracking-wider">SOLAR HASH</span>
-          </div>
+        <a href="/" class="flex items-center gap-2 no-underline text-[#0B0D1B] max-w-[280px]">
+          <img src="/andes-solar-hash-logo.png" alt="ANDES SOLAR HASH" class="h-10 w-auto max-w-full object-contain" width="280" height="40" />
         </a>
         <p class="text-sm font-ui text-[#0B0D1B]/90 leading-relaxed">
           Copyright 2024 Andes Solar Hash. No somos Brokers, somos innovadores.

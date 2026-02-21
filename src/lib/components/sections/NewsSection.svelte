@@ -4,21 +4,21 @@
       title: 'El Impacto del Halving en la Rentabilidad Minera y la Tesis de Largo Plazo.',
       date: '20 NOV 2025',
       category: 'TENDENCIAS',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/5f7078439de44e6f0734c0bab6f9ba1e89e2858b?width=798',
+      image: '/images/builder-blog-halving.png',
       href: '/blog/halving-rentabilidad'
     },
     {
       title: 'Por qué el costo de $0.088 USD/kWh es nuestra mayor ventaja.',
       date: '15 NOV 2025',
       category: 'INFRAESTRUCTURA',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/4468f585352a304995b5043f4c8efc99ffc00413?width=779',
+      image: '/images/builder-blog-kwh.png',
       href: '/blog/costo-energia'
     },
     {
       title: 'Guía Legal: Minería de Bitcoin y su Posición frente al SII en Chile.',
       date: '01 NOV 2025',
       category: 'REGULACIÓN',
-      image: 'https://api.builder.io/api/v1/image/assets/TEMP/9cdcc3e8a91c832e2d23d0e3b911d1082f46bbee?width=779',
+      image: '/images/builder-blog-legal.png',
       href: '/blog/guia-legal-sii'
     }
   ];

@@ -8,7 +8,7 @@
     function: 'BTC/BCH/BSV - SHA256',
     efficiency: '13.5 J/T',
     price: '$7.999.999 CLP',
-    imageSrc: 'https://api.builder.io/api/v1/image/assets/TEMP/bf3c37a8977865906dce2c550d7508ec862fb9ee?width=800'
+    imageSrc: '/images/builder-antminer-s21-xp.png'
   };
 </script>
 

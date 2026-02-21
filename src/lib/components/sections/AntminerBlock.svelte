@@ -9,7 +9,7 @@
   <!-- Decorative Bitcoin Icon -->
   <div class="absolute left-5 bottom-0 w-[282px] h-[455px] hidden xl:block">
     <img 
-      src="https://api.builder.io/api/v1/image/assets/TEMP/275b45d5001dc298a90f7d0d73f19d3c144e6b7d?width=564"
+      src="/images/builder-antminer-card.png"
       alt=""
       class="w-full h-full object-contain opacity-30"
     />
@@ -81,7 +81,7 @@
       <!-- Right Product Image (orden 1 en móvil) -->
       <div class="flex items-center justify-center lg:justify-end order-1 lg:order-2">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/bf3c37a8977865906dce2c550d7508ec862fb9ee?width=984"
+          src="/images/builder-antminer-s21-xp.png"
           alt="Antminer S21 XP"
           class="w-full max-w-[280px] md:max-w-[492px] h-auto"
         />

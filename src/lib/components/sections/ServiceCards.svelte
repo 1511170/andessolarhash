@@ -9,7 +9,7 @@
   <!-- Decorative Bitcoin Icon -->
   <div class="absolute right-0 top-12 w-[365px] h-[648px] hidden xl:block">
     <img 
-      src="https://api.builder.io/api/v1/image/assets/TEMP/4a484b81c5235b15b20921f4de326e8c06c2537e?width=730"
+      src="/images/builder-services-hero.png"
       alt=""
       class="w-full h-full object-contain opacity-40"
     />
@@ -25,7 +25,7 @@
       <!-- Icon -->
       <div class="mb-6 flex justify-center">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/5d6d944672a1cd3b343112d6a46bc35614cbc64d?width=272"
+          src="/images/builder-product-miner.png"
           alt="ASIC Miner"
           class="w-[136px] h-[136px]"
         />
@@ -91,7 +91,7 @@
       <!-- Webpay Logo -->
       <div class="flex justify-center mb-4">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/b9526f1f3adf9c9317a52e2314617a3b66a8a378?width=280"
+          src="/images/builder-service-wallet.png"
           alt="Webpay"
           class="h-[37px] w-auto"
         />
@@ -116,7 +116,7 @@
       <!-- Icon -->
       <div class="mb-6 flex justify-center">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/116dd5d02463a9aac6f70b67328f79b3ee1db3e2?width=378"
+          src="/images/builder-hosting-hero.png"
           alt="Hosting"
           class="h-[138px] w-auto"
         />
@@ -188,7 +188,7 @@
       <!-- Icon -->
       <div class="mb-6 flex justify-center">
         <img 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/b53493c4a6e2068d545a02853f5c9faf2212ca2e?width=422"
+          src="/images/builder-nft-product.png"
           alt="NFT"
           class="h-[176px] w-auto"
         />

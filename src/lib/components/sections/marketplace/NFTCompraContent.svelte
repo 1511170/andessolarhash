@@ -11,7 +11,7 @@
     status: 'Operativo',
     sold: 1,
     total: 100,
-    imageSrc: 'https://api.builder.io/api/v1/image/assets/TEMP/b53493c4a6e2068d545a02853f5c9faf2212ca2e?width=500'
+    imageSrc: '/images/builder-nft-product.png'
   };
 </script>
 
@@ -66,7 +66,7 @@
       <!-- Right: ¿Qué representa este NFT? -->
       <div class="lg:col-span-4 relative">
         <div class="absolute inset-0 opacity-10 pointer-events-none">
-          <img src="https://api.builder.io/api/v1/image/assets/TEMP/b53493c4a6e2068d545a02853f5c9faf2212ca2e?width=400" alt="" class="w-full h-full object-contain" />
+          <img src="/images/builder-nft-product.png" alt="" class="w-full h-full object-contain" />
         </div>
         <div class="relative z-10">
           <h2 class="font-display font-bold text-lg text-white uppercase tracking-wide mb-4">

@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "figma:export": "node scripts/export-figma-images.mjs",
+    "builder:images": "node scripts/download-builder-io-images.mjs",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",

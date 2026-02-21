@@ -13,9 +13,12 @@
   ];
 
   $: currentPath = $page.url.pathname;
+  /** Marca el enlace como activo cuando la ruta actual coincide (incl. subrutas y trailing slash). */
   function isActive(href: string): boolean {
-    if (href === '/') return currentPath === '/';
-    return currentPath === href || currentPath.startsWith(href + '/');
+    const path = currentPath.replace(/\/$/, '') || '/';
+    const base = href.replace(/\/$/, '') || '/';
+    if (base === '/') return path === '/';
+    return path === base || path.startsWith(base + '/');
   }
 </script>
 
@@ -64,7 +67,7 @@
       {#each navLinks as link}
         <a
           href={link.href}
-          class="text-sm font-ui font-medium no-underline transition-colors {isActive(link.href) ? 'text-brand' : 'text-white hover:text-brand'}"
+          class="text-sm font-ui font-medium no-underline transition-colors {isActive(link.href) ? 'text-brand font-semibold border-b-2 border-brand pb-0.5' : 'text-white hover:text-brand'}"
         >
           {link.label}
         </a>
@@ -103,7 +106,7 @@
         {#each navLinks as link}
           <a
             href={link.href}
-            class="block py-3 text-sm font-ui font-medium no-underline transition-colors {isActive(link.href) ? 'text-brand' : 'text-white hover:text-brand'}"
+            class="block py-3 text-sm font-ui font-medium no-underline transition-colors {isActive(link.href) ? 'text-brand font-semibold' : 'text-white hover:text-brand'}"
             on:click={() => (openMenu = false)}
           >
             {link.label}

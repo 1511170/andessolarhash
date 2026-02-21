@@ -14,14 +14,14 @@
     hashrate: '234 TH/s',
     algorithm: 'SHA-256',
     supplyTotal: 100,
-    imageSrc: 'https://api.builder.io/api/v1/image/assets/TEMP/b53493c4a6e2068d545a02853f5c9faf2212ca2e?width=500'
+    imageSrc: '/images/builder-nft-product.png'
   };
 </script>
 
 <section class="bg-[#0B0D1B] py-16 px-6 min-h-[70vh] relative overflow-hidden">
   <!-- Background texture -->
   <div class="absolute inset-0 opacity-20 pointer-events-none">
-    <img src="https://api.builder.io/api/v1/image/assets/TEMP/116dd5d02463a9aac6f70b67328f79b3ee1db3e2?width=1200" alt="" class="w-full h-full object-cover" />
+    <img src="/images/builder-hosting-hero.png" alt="" class="w-full h-full object-cover" />
   </div>
 
   <div class="max-w-[1100px] mx-auto relative z-10">
